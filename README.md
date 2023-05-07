@@ -59,8 +59,8 @@ The designs were created to the following widths:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/ricardo-piedade-result-summary-component-aMcXtGtS8S)
+- Live Site URL: [Live Site](https://acr2004.github.io/Result-Summary-Component/)
 
 ## Author
 
