@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Frontend Mentor | Result Summary Component</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="score-container">
+                <h3>Your Result</h3>
+                <div id="circle">
+                    <h1>76</h1>
+                    <h4>of 100</h4>
+                </div>
+                <h2>Great</h2>
+                <p>You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+
+            <div id="summary-container">
+                <h3 id="summary">Summary</h3>
+
+                <div class="stats" id="reaction-div">
+                    <img src="Images/icon-reaction.svg" alt="Icon">
+                    <h3>Reaction</h3>
+                    <div class="score">
+                        <h3><span class="actual-score">80</span> / 100</h3>
+                    </div>
+                </div>
+
+                <div class="stats" id="memory-div">
+                    <img src="Images/icon-memory.svg" alt="Icon">
+                    <h3>Memory</h3>
+                    <div class="score">
+                        <h3><span class="actual-score">92</span> / 100</h3>
+                    </div>
+                </div>
+
+                <div class="stats" id="verbal-div">
+                    <img src="Images/icon-verbal.svg" alt="Icon">
+                    <h3>Verbal</h3>
+                    <div class="score">
+                        <h3><span class="actual-score">61</span> / 100</h3>
+                    </div>
+                </div>
+
+                <div class="stats" id="visual-div">
+                    <img src="Images/icon-visual.svg" alt="Icon">
+                    <h3>Visual</h3>
+                    <div class="score">
+                        <h3><span class="actual-score">72</span> / 100</h3>
+                    </div>
+                </div>
+
+                <button id="continue">Continue</button>
+            </div>
+        </div>
+    </body>
+</html>

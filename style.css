@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 736px;
+    height: 512px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.12);
+}
+
+#score-container {
+    width: 50%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(#7857ff, #2e2be9);
+    padding: 0px 60px;
+}
+
+#score-container h3 {
+    color: hsl(241, 100%, 89%);
+    font-size: 23px;
+    margin-top: 39px;
+    margin-bottom: 35px;
+}
+
+#circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: linear-gradient(#4e21ca, #2421ca00);
+}
+
+#circle h1 {
+    font-size: 70px;
+    color: #FFF;
+}
+
+#circle h4 {
+    color: hsla(241, 100%, 89%, 0.5);
+    font-size: 17px;
+}
+
+#score-container h2 {
+    font-size: 32px;
+    color: #FFF;
+    margin-top: 39px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+}
+
+#summary-container {
+    width: 50%;
+    padding: 0px 40px;
+}
+
+#summary {
+    color: hsl(224, 30%, 27%);
+    font-size: 23px;
+    margin-top: 39px;
+    margin-bottom: 28px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    background-color: hsl(0, 100%, 67%);
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.stats img {
+    width: 18px;
+    height: 18px;
+    margin-left: 17px;
+    margin-right: 14px;
+}
+
+.score {
+    width: 100%;
+    text-align: end;
+    padding-right: 17px;
+}
+
+#reaction-div {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+#memory-div {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+#verbal-div {
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+#visual-div {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+    margin-bottom: 41px;
+}
+
+.actual-score {
+    color: hsl(224, 30%, 27%);
+}
+
+.score h3 {
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+#continue {
+    width: 100%;
+    height: 56px;
+    color: #FFF;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    border-radius: 100px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#continue:hover {
+    background: linear-gradient(#7857ff, #2e2be9);
+}
+
+@media only screen and (max-width: 800px) {
+    #container {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    #score-container {
+        width: 100vw;
+        height: 40vh;
+        border-radius: 0 0 30px 30px;
+        justify-content: center;
+    }
+
+    #score-container h3 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #circle {
+        width: 120px;
+        height: 120px;
+    }
+    
+    #circle h1 {
+        font-size: 50px;
+    }
+
+    #circle h4 {
+        margin-top: -10px;
+        font-size: 14px;
+    }
+
+    #score-container h2 {
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #summary-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        height: 60vh;
+        padding: 0px 40px;
+    }
+
+    #summary {
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
+
+    .stats {
+        height: 50px;
+    }
+
+    #visual-div {
+        margin-bottom: 15px;
+    }
+}
